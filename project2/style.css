@@ -1,0 +1,72 @@
+body{
+background-image: linear-gradient(to right, #76aefc, white, #76aefc);
+}
+
+.raindrop {
+	height:1000px;
+	width: 1000px;
+}
+
+.grid-werter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.griditem1 {
+	
+}
+
+.griditem2 {
+	
+}
+.col1{
+	grid-column-start: 1; 
+	grid-column: span 1;
+}
+.col2{
+	grid-column-start: 2; 
+	grid-column: span 1;
+}
+.col3{
+	grid-column-start: 3; 
+	grid-column: span 1;
+}
+h1.header {
+	text-align: center;
+	font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: #91c4ff;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #91c4ff;
+}
+.manunderwater{
+	width:700px;
+	height:600px;
+}
+.NOTWET{
+	text-align: center;
+}
+.bubbles{
+	width:100%;
+	
+}
